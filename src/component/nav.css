@@ -1,0 +1,8 @@
+body [them] {
+    background-color: black; /* Default background color */
+    color: white; /* Default text color */
+}
+
+nav [them][style*="background-color:white"] {
+    color: black; /* Change text color to black if background color is white */
+}

@@ -1,0 +1,7 @@
+div#changeColor {
+    background: white !important;
+    color: red ;
+}
+body{
+    scroll-behavior: smooth;
+}
