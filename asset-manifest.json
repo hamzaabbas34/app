@@ -1,17 +1,22 @@
 {
   "files": {
-    "main.css": "/app/static/css/main.2b8b8b3b.css",
-    "main.js": "/app/static/js/main.ce028da9.js",
+    "main.css": "/app/static/css/main.2cb6e8ca.css",
+    "main.js": "/app/static/js/main.d5f8ddf2.js",
     "static/js/453.a6a97343.chunk.js": "/app/static/js/453.a6a97343.chunk.js",
+    "static/media/japna.png": "/app/static/media/japna.f20fa704aa4a6187af6a.png",
+    "static/media/farreq.png": "/app/static/media/farreq.bf39efaad379ce03eefe.png",
+    "static/media/anas.png": "/app/static/media/anas.c94a00108d33d138a807.png",
+    "static/media/special.jpg": "/app/static/media/special.c2e4ccd02556474edd37.jpg",
+    "static/media/hamza_resume.pdf": "/app/static/media/hamza_resume.cdad0ecf854896b75a1d.pdf",
     "static/media/NeueMachina-Ultrabold.otf": "/app/static/media/NeueMachina-Ultrabold.07d4eef9a71d90303bbf.otf",
     "static/media/NeueMachina-Light.otf": "/app/static/media/NeueMachina-Light.e1fb3b2574d18010b9ff.otf",
     "index.html": "/app/index.html",
-    "main.2b8b8b3b.css.map": "/app/static/css/main.2b8b8b3b.css.map",
-    "main.ce028da9.js.map": "/app/static/js/main.ce028da9.js.map",
+    "main.2cb6e8ca.css.map": "/app/static/css/main.2cb6e8ca.css.map",
+    "main.d5f8ddf2.js.map": "/app/static/js/main.d5f8ddf2.js.map",
     "453.a6a97343.chunk.js.map": "/app/static/js/453.a6a97343.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b8b8b3b.css",
-    "static/js/main.ce028da9.js"
+    "static/css/main.2cb6e8ca.css",
+    "static/js/main.d5f8ddf2.js"
   ]
 }
