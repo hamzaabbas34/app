@@ -1,5 +1,9 @@
 import React from "react";
 import "./project.css";
+import anas from '../Assets/images/anas.png'
+import japan from '../Assets/images/japna.png'
+import farreq from '../Assets/images/farreq.png'
+
 export default function Project() {
 	return (
 		<div
@@ -11,11 +15,11 @@ export default function Project() {
 						<img
 							src="https://acropolium.com/img/articles/build-a-fuel-management-system/img03.jpg"
 							alt=""
-							className="size-full "
+							className="size-full  object-cover "
 						/>
 					</div>
 					<h2 className="font-bold text-2xl py-4">
-						Japan Language Landingpage
+					Fuel management system
 					</h2>
 					<p>
 						Developed as part of a group internship project, this Fuel
@@ -26,13 +30,17 @@ export default function Project() {
 					</p>
 					<div className="pt-3">
 						<a href="https://github.com/hamzaabbas34">
-							<button>view github</button>
+							<button className=" hover:text-opacity-50 text-white">view github</button>
 						</a>
 					</div>
 				</div>
 				<div className="rgss w-full">
 					<div className="imagebox w-[100%] rounded-lg overflow-hidden h-80 parent-image ">
-						<img src="./image/farreq.png" alt="" className="size-full " />
+						<img
+							src={farreq}
+							alt=""
+							className="size-full  object-cover   "
+						/>
 					</div>
 					<h2 className="font-bold text-2xl py-4">5k Ipv Provider </h2>
 					<p>
@@ -44,7 +52,7 @@ export default function Project() {
 					</p>
 					<div className="pt-3">
 						<a href="https://github.com/hamzaabbas34">
-							<button>view github</button>
+							<button className=" hover:text-opacity-50 text-white">view github</button>
 						</a>
 					</div>
 				</div>
@@ -52,7 +60,7 @@ export default function Project() {
 			<div className="second w-100 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 sm:flex-col">
 				<div className="lfss w-[100%] ">
 					<div className="imagebox w-[100%] rounded-lg overflow-hidden h-80 parent-image ">
-						<img src="./image/anas.png" alt="" className="size-full " />
+						<img src={anas} alt="" className="size-full object-cover " />
 					</div>
 					<h2 className="font-bold text-2xl py-4">Anas Qureshi Portfolio</h2>
 					<p>
@@ -63,13 +71,13 @@ export default function Project() {
 					</p>
 					<div className="pt-3">
 						<a href="https://github.com/hamzaabbas34">
-							<button>view github</button>
+							<button className=" hover:text-opacity-50 text-white">view github</button>
 						</a>
 					</div>
 				</div>
 				<div className="rgss w-full">
 					<div className="imagebox w-[100%] rounded-lg overflow-hidden h-80 parent-image ">
-						<img src="./image/japna.png" alt="" className="size-full " />
+						<img src={japan} alt="" className="size-full object-cover " />
 					</div>
 					<h2 className="font-bold text-2xl py-4">Japan customer Website </h2>
 					<p>
@@ -80,7 +88,7 @@ export default function Project() {
 					</p>
 					<div className="pt-3">
 						<a href="https://github.com/hamzaabbas34">
-							<button>view github</button>
+							<button className=" hover:text-opacity-50 text-white">view github</button>
 						</a>
 					</div>
 				</div>
